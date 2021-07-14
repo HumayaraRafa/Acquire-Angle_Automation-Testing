@@ -1,0 +1,12 @@
+package FrameWorkImplemention;
+
+import org.openqa.selenium.WebElement;
+
+public class SellerPageObject {
+	
+	public static void main(String[] args) {
+		
+		WebElement element=null;
+		
+	}
+}

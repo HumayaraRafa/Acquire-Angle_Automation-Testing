@@ -1,0 +1,20 @@
+package FrameWorkImplemention;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class SellerPageObject {
+	
+	public static void main(String[] args) {
+		
+		private static WebElement element=null;
+		
+		public static WebElement emailaddress(WebDriver driver)
+		{
+	     element=driver.findElement(By.id("Email"));
+	     return element;
+	    
+	}
+
+}

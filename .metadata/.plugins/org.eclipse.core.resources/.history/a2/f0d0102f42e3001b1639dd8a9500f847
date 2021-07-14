@@ -1,0 +1,20 @@
+package FrameWorkImplemention;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class JoinNowPageTest {
+
+public static void main(String[] args) throws InterruptedException {
+		
+
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver= new FirefoxDriver();
+		
+		//URL visit
+		driver.get("https://acquireangel.com/signup");
+	
+}	
+}

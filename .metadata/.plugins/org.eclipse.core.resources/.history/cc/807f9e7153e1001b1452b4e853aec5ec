@@ -1,0 +1,26 @@
+package FrameWorkImplemention;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SignInPageTest {
+
+public static void main(String[] args) throws InterruptedException {
+		
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver= new FirefoxDriver();
+		
+		//url visit
+		driver.get("https://www.acquireangel.com/signin");
+		
+		//filled all fields with valid info
+		SignInPageObject.emailaddress(driver).sendKeys("");
+		SignInPageObject.password(driver).sendKeys("");
+		SignInPageObject.rememberme(driver).click();
+		SignInPageObject.signin(driver).click();
+		SignInPageObject.forgotpassword(driver).click();
+		SignInPageObject.forgotpassword(driver).sendKeys("");
+		SignInPageObject.send(driver).click();
+}
+}

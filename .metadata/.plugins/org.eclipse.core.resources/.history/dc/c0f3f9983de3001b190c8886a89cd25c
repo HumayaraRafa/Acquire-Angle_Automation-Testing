@@ -1,0 +1,9 @@
+package FrameWorkImplemention;
+
+import org.openqa.selenium.WebElement;
+
+public class SellerPageObject {
+		
+		private static WebElement element=null;
+		
+}

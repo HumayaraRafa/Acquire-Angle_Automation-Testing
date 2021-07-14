@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\hrafa\OneDrive\Desktop\Acquire_Angle_Version-1.0\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4276653011.index
+1669007548.index
+1808807350.index
+2270407043.index
+1534645491.index
+3177226044.index

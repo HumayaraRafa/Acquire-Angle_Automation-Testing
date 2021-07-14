@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="FrameWorkImplemention.HomePageObject"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+<fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+<fullyQualifiedTypeName name="FrameWorkImplemention.SignInPageObject"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.Select"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Action"/>
+<fullyQualifiedTypeName name="Pages.AfterLogin_BuyerPage"/>
+<fullyQualifiedTypeName name="FrameWorkImplemention.SellerPageObject"/>
+<fullyQualifiedTypeName name="FrameWorkImplemention.CommonWorkTest_POL"/>
+<fullyQualifiedTypeName name="FrameWorkImplemention.JoinNowPageObject"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="FrameWorkImplemention.AfterLogin_BuyerPageObject"/>
+</qualifiedTypeNameHistroy>

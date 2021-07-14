@@ -1,0 +1,38 @@
+package FrameWorkImplemention;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AfterLogin_SellerPageTest {
+public static void main(String[] args) throws InterruptedException {
+		
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver= new FirefoxDriver();
+		
+		//URL visit
+		driver.get("https://acquireangel.com/signin");
+		
+		//sign in valid info
+		AfterLogin_BuyerPageObject.emailaddress(driver).sendKeys("aly1emqj9z@eposta.buzz");
+		AfterLogin_BuyerPageObject.password(driver).sendKeys("5BRWBmMjCc55yPG");
+		/*//invalid info
+		AfterLogin_BuyerPageObject.emailaddress(driver).sendKeys("gasebe5710@godpeed  com");
+		AfterLogin_BuyerPageObject.password(driver).sendKeys("          "); */
+		
+		AfterLogin_BuyerPageObject.rememberme(driver).click();
+		AfterLogin_BuyerPageObject.signin(driver).click(); 
+		
+		/*//forgot password
+		AfterLogin_BuyerPageObject.forgotpassword(driver).click();
+		AfterLogin_BuyerPageObject.emailaddress(driver).sendKeys("hrafa783@gmail.com");
+		AfterLogin_BuyerPageObject.send(driver).click(); */
+		
+		//linkedin login
+		//AfterLogin_BuyerPageObject.linkedIn(driver).click();
+		
+		//signup
+		//AfterLogin_BuyerPageObject.signup(driver).click();
+
+}
+}
